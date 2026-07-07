@@ -1,0 +1,36 @@
+/* Hof Prädikow Brand Fonts - loaded from Figma */
+/* These fonts are available in Figma and will be rendered correctly in the preview */
+
+/* Europa Sans (Primary Brand Font) */
+@font-face {
+  font-family: 'Europa';
+  font-weight: 400;
+  font-style: normal;
+  src: local('Europa-Regular');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Europa';
+  font-weight: 700;
+  font-style: normal;
+  src: local('Europa-Bold');
+  font-display: swap;
+}
+
+/* GT Sectra Fine (Serif Brand Font) */
+@font-face {
+  font-family: 'GT Sectra Fine';
+  font-weight: 500;
+  font-style: normal;
+  src: local('GT Sectra Fine Medium');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Sectra Fine';
+  font-weight: 700;
+  font-style: normal;
+  src: local('GT Sectra Fine Bold');
+  font-display: swap;
+}
