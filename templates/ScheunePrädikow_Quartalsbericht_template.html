@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<template id="__bundler_thumbnail" data-bg-color="#f9f5f1">
+  <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+    <rect x="10" y="8" width="100" height="104" fill="none" stroke="#f05e29" stroke-width="4"/>
+    <text x="60" y="50" text-anchor="middle" font-family="Georgia,serif" font-size="14" font-weight="700" fill="#00aad6">QB</text>
+    <line x1="24" y1="66" x2="96" y2="66" stroke="#1a1919" stroke-width="2"/>
+    <line x1="24" y1="80" x2="96" y2="80" stroke="#1a1919" stroke-width="2" opacity="0.6"/>
+    <line x1="24" y1="94" x2="70" y2="94" stroke="#1a1919" stroke-width="2" opacity="0.6"/>
+  </svg>
+</template>
+<script src="./doc-page.js"></script>
+<script src="./image-slot.js"></script>
+<style>
+  @font-face { font-family: "GT-Sectra-Fine"; src: url("./fonts/GT-Sectra-Fine-Bold_f5ae5de3.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+  @font-face { font-family: "GT-Sectra-Fine"; src: url("./fonts/GT-Sectra-Fine-Medium_d7f2c846.woff2") format("woff2"); font-weight: 500; font-style: normal; font-display: swap; }
+  @font-face { font-family: "Europa"; src: url("./fonts/Europa-Bold_8f912a1a.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+  @font-face { font-family: "Europa"; src: url("./fonts/Europa-Regular_166fbe1c.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+  a { color: #f05e29; }
+  a:hover { color: #00aad6; }
+  doc-page:not(:defined) { visibility: hidden; }
+</style>
+</helmet>
+<doc-page size="a4">
+
+<section class="page" data-screen-label="01 Übersicht" style="background:#f9f5f1;font-family:'Europa',system-ui,sans-serif;color:#1a1919;">
+  <div style="height:100%;width:100%;box-sizing:border-box;padding:22px;">
+    <div style="height:100%;width:100%;box-sizing:border-box;border:2px solid #f05e29;padding:30px 36px;display:flex;flex-direction:column;gap:12px;overflow:hidden;">
+
+      <div style="text-align:center;display:flex;flex-direction:column;gap:4px;">
+        <div style="color:#00aad6;font-family:'Europa',sans-serif;font-weight:700;font-size:13px;letter-spacing:0.08em;">{{ quarterBadge }}</div>
+        <div style="color:#00aad6;font-family:'GT-Sectra-Fine',Georgia,serif;font-weight:700;font-size:32px;letter-spacing:-0.01em;line-height:1.1;">Quartalsbericht</div>
+        <div style="color:#00aad6;font-family:'GT-Sectra-Fine',Georgia,serif;font-weight:500;font-size:21px;">Scheune Prädikow</div>
+      </div>
+
+      <div style="text-align:center;font-size:12.5px;line-height:1.4;color:#6b6560;max-width:540px;margin:0 auto;">
+        Wir berichten viermal im Jahr über den Stand der Dinge. Diesmal etwas verkürzt, weil die Sommerpause vor der Tür steht.
+      </div>
+
+      <div style="display:flex;flex-direction:column;gap:5px;margin-top:2px;">
+        <div style="font-weight:700;font-size:12.5px;">Zusammenfassung für die, die wenig Zeit haben:</div>
+        <div style="display:grid;grid-template-columns:150px 1fr;gap:3px 10px;font-size:12px;">
+          <div style="font-weight:700;color:#00aad6;">Fun 😊</div><div>(Stimmung im Team)</div>
+          <div style="font-weight:700;color:#00aad6;">Fame 🙌</div><div>(Wahrnehmung von Außen)</div>
+          <div style="font-weight:700;color:#00aad6;">Fortune 💰</div><div>(Finanzen)</div>
+          <div style="font-weight:700;color:#00aad6;">Framework 🛠️</div><div>(Rahmenbedingungen und Fortschritt)</div>
+        </div>
+      </div>
+
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:26px;margin-top:6px;flex:1;min-height:0;">
+        <div style="display:flex;flex-direction:column;gap:10px;font-size:12px;line-height:1.4;">
+          <div>
+            <div style="font-family:'GT-Sectra-Fine',Georgia,serif;font-weight:500;font-size:14px;margin-bottom:5px;">Veranstaltungen Rückblick</div>
+            <div style="display:flex;flex-direction:column;gap:3px;">
+              <div style="display:flex;gap:6px;"><span style="color:#f05e29;">–</span><span>Tag der offenen Ateliers mit viele Besucher*innen, leckeres Essen, kalte Drinks und ein Top-Team.</span></div>
+              <div style="display:flex;gap:6px;"><span style="color:#f05e29;">–</span><span>Nachmal ein dickes Dankeschön an Anke W. und Fraenze für die Gesamtkoordination im Storch und die Künstler*innen fürs ausrichten.</span></div>
+              <div style="display:flex;gap:6px;"><span style="color:#f05e29;">–</span><span>Workshops im Rahmen der Next-Gen Narratives mit treibender Kraft Malika.</span></div>
+              <div style="display:flex;gap:6px;"><span style="color:#f05e29;">–</span><span>Schöne, warme Sonntagscafé Nachmittage. Lieben Dank Birgit und Heike P.</span></div>
+              <div style="display:flex;gap:6px;"><span style="color:#f05e29;">–</span><span>Bosch-Alumni-Event, ein ganzes Wochenende mit eigenem Catering und Programm, Dank an Christin &amp; Team!</span></div>
+              <div style="display:flex;gap:6px;"><span style="color:#f05e29;">–</span><span>und weiteres: ein Tag der Baukultur, Simonas Geburtstag, ein Konzertabend von Tille, die Tagungsklausur der AWO, VM-Abende und so weiter.</span></div>
+            </div>
+            <div style="margin-top:5px;">Unser Programm bleibt bunt!</div>
+          </div>
+          <div>
+            <div style="font-family:'GT-Sectra-Fine',Georgia,serif;font-weight:500;font-size:14px;margin-bottom:5px;">Veranstaltungen Ausblick</div>
+            <div style="display:flex;flex-direction:column;gap:3px;">
+              <div style="display:flex;gap:6px;"><span style="color:#f05e29;">–</span><span>Der geplante Pop-up mit Piqnique muss leider ausfallen, aber steht noch einiges an…</span></div>
+              <div style="display:flex;gap:6px;"><span style="color:#f05e29;">–</span><span>Offizieller Start 2. Jahreshälfte mit einem sommerlichen Cocktailabend am 28.08 von Sven und Birgit J.</span></div>
+              <div style="display:flex;gap:6px;"><span style="color:#f05e29;">–</span><span>Abschlussfestival Young Narratives</span></div>
+              <div style="display:flex;gap:6px;"><span style="color:#f05e29;">–</span><span>29. August: Ede&amp;Unku, Lesung und Konzert</span></div>
+            </div>
+            <div style="margin-top:5px;">Im Dezember wird es erneut einen Kurzfilmabend geben, ab September finden dann auch regelmäßig wieder Jam Sessions, Kneipenabende, Hofführungen und Flohmärkte statt. Über tatkräftige Unterstützung hinter der Bar und im Saal freuen wir uns!</div>
+            <div style="margin-top:5px;">Falls jemand unsere Veranstaltungsvielfalt ergänzen möchte, melde dich gern. Das Scheunenteam steht mit Rat und Tat zur Verfügung.</div>
+          </div>
+        </div>
+
+        <div style="display:flex;flex-direction:column;gap:10px;font-size:12px;line-height:1.4;">
+          <div>
+            <div style="font-family:'GT-Sectra-Fine',Georgia,serif;font-weight:500;font-size:14px;margin-bottom:5px;">Team</div>
+            <div>Wir wurden von euch gewählt, hurra! Wir haben uns als Ziel gesetzt, innerhalb des ersten Sommer 2027 unsere Struktur zu klären. Wir haben, so wie alle Kreise, Rollen für unsere Domäne ausgearbeitet.</div>
+            <div style="margin-top:5px;">Kreisleitung übernimmt Jene, Suse gemeinsam mit den Themenkreis Dorf und Region, Robert kümmert sich weiterhin um den Hof. Moderation und Protokoll.</div>
+            <div style="margin-top:5px;">Die Stimmung im Team ist gut. Nach anfänglichen Startschwierigkeiten und Zusammenarbeit, vielen Erfolgen, ein paar herausfordernden Missverständnissen, steht die Scheune nun gut aufgestellt da.</div>
+          </div>
+          <div>
+            <div style="font-family:'GT-Sectra-Fine',Georgia,serif;font-weight:500;font-size:14px;margin-bottom:5px;">Was haben wir geschafft?</div>
+            <div style="display:flex;flex-direction:column;gap:3px;">
+              <div style="display:flex;gap:6px;"><span style="color:#f05e29;">–</span><span>Kreisstruktur etabliert</span></div>
+              <div style="display:flex;gap:6px;"><span style="color:#f05e29;">–</span><span>Scheune stabiler denn je: Der Breitband-Vertrag verträgt inzwischen auch Rückschläge</span></div>
+              <div style="display:flex;gap:6px;"><span style="color:#f05e29;">–</span><span>Strategietreffen durchgeführt</span></div>
+              <div style="display:flex;gap:6px;"><span style="color:#f05e29;">–</span><span>monatliche Treffen mit dem Dorf – gemeinsam</span></div>
+              <div style="display:flex;gap:6px;"><span style="color:#f05e29;">–</span><span>endlich eine Reinigungsroutine, die sich selbst baut</span></div>
+            </div>
+          </div>
+          <div>
+            <div style="font-family:'GT-Sectra-Fine',Georgia,serif;font-weight:500;font-size:14px;margin-bottom:5px;">Was steht bis Ende des Jahres an?</div>
+            <div style="display:flex;flex-direction:column;gap:3px;">
+              <div style="display:flex;gap:6px;"><span style="color:#f05e29;">–</span><span>geplante Investitionen tätigen, die den Hof stützen und erweitern</span></div>
+              <div style="display:flex;gap:6px;"><span style="color:#f05e29;">–</span><span>den Betrieb der Scheune weiterhin verteilen und in die Kreis-Struktur einbinden</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="page" data-screen-label="02 Finanzen" style="background:#f9f5f1;font-family:'Europa',system-ui,sans-serif;color:#1a1919;">
+  <div style="height:100%;width:100%;box-sizing:border-box;padding:22px;">
+    <div style="height:100%;width:100%;box-sizing:border-box;border:2px solid #f05e29;padding:30px 36px;display:flex;flex-direction:column;gap:12px;overflow:hidden;">
+
+      <div style="text-align:center;display:flex;flex-direction:column;gap:2px;">
+        <div style="color:#00aad6;font-family:'GT-Sectra-Fine',Georgia,serif;font-weight:700;font-size:25px;letter-spacing:-0.01em;">{{ quarterRange }}</div>
+        <div style="color:#00aad6;font-family:'GT-Sectra-Fine',Georgia,serif;font-weight:700;font-size:25px;letter-spacing:-0.01em;">Finanzen</div>
+      </div>
+
+      <div style="font-weight:700;font-size:13px;">Übersicht</div>
+
+      <image-slot id="chart-cashflow" shape="rect" style="width:100%;height:260px;" placeholder="Cashflow-Chart einfügen"></image-slot>
+
+      <div style="font-size:11.5px;line-height:1.4;color:#1a1919;">
+        Die Grafik zeigt die Gegenüberstellung von erwarteten Einnahmen zu erwarteten Ausgaben. Der Cashflow ist zum Ende des Jahres positiv, d.h. die Scheune wird wahrscheinlich einen Gewinn erzielen. Der hohe Wert am Anfang des Jahres bei ca. 18.000€ erklärt sich mit den Überschüssen des Jahres 2025 für laufende Rechnungen im laufenden Jahr.
+      </div>
+      <div style="font-size:11.5px;font-weight:700;">Was bedeutet dieser Abfall und Anstieg zum Ende des Jahres?</div>
+      <div style="font-size:11.5px;line-height:1.4;">
+        Der Abfall sind die großen Zahlungen wie Pacht an die trias und Rückzahlung des Kredits. Der folgende steile Anstieg ist keine überschwängliche Hoffnung, sondern alle offene Rechnungen im Coworking, die auf Ende des Jahres gestellt sind. Hintergrund ist, dass wir für die Mieter:innen Dauermietrechnung ausstellen, die das gesamte Jahr umfassen. Das verringert unseren Aufwand.
+      </div>
+
+      <image-slot id="chart-iban" shape="rect" style="width:100%;height:100px;" placeholder="Zahlungen laut IBAN einfügen"></image-slot>
+
+      <div style="font-size:11.5px;line-height:1.4;">
+        Oben die Übersicht zum Gesamtjahr: Wir erwarten etwa 15.000€ positiven Cashflow, aber das ist nicht der Gewinn, da wir hohe Überschüsse aus dem Vorjahr mitschleppen. Da werden wenige Einnahmen dazu kommen. Wir rechnen da bisher sehr konservativ. Dabei muss aber bedacht sein, dass dieses Ziel gerade nur mit Ehrenamt erreicht wird. Das wollen wir aber mittelfristig ändern.
+      </div>
+      <div style="font-size:11.5px;font-weight:700;">Warum sind die Zahlen so viel besser als noch zu Ende des Q1?</div>
+      <div style="font-size:11.5px;line-height:1.4;">
+        Wir haben im zweiten Quartal sehr viel mehr akquiriert als in Q1: Coworking, ein neuer Kurs, mehr Zuschüsse von der Gemeinde, das Bosch-Alumni wurde aufgestockt und last but not least: der CoWorking-Space am Sonntag sorgt für den steten Tropfen.
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="page" data-screen-label="03 Events" style="background:#f9f5f1;font-family:'Europa',system-ui,sans-serif;color:#1a1919;">
+  <div style="height:100%;width:100%;box-sizing:border-box;padding:22px;">
+    <div style="height:100%;width:100%;box-sizing:border-box;border:2px solid #f05e29;padding:30px 36px;display:flex;flex-direction:column;gap:14px;overflow:hidden;">
+
+      <div style="text-align:center;display:flex;flex-direction:column;gap:2px;">
+        <div style="color:#00aad6;font-family:'GT-Sectra-Fine',Georgia,serif;font-weight:700;font-size:25px;letter-spacing:-0.01em;">{{ quarterRange }}</div>
+        <div style="color:#00aad6;font-family:'GT-Sectra-Fine',Georgia,serif;font-weight:700;font-size:25px;letter-spacing:-0.01em;">Auswertung der Events</div>
+      </div>
+
+      <div style="font-size:12px;line-height:1.4;">Hier die Detail-Übersicht über die verschiedenen Arten der Einnahmen:</div>
+
+      <image-slot id="chart-events" shape="rect" style="width:100%;flex:1;min-height:0;" placeholder="Events-Tabelle / Balkendiagramm einfügen"></image-slot>
+
+      <div style="font-size:11.5px;line-height:1.45;">
+        Unser Nutzungsmix ist stabil. Die Einnahmen verteilen sich auf verschiedene Angebote, sodass den Wegfall einer Säule verkraften könnten. Dabei machen Kurse und CoWorking wenig Arbeit für einen steten Cashflow. Auch deswegen können wir die hofeigenen Veranstaltungen, Cafés und Jams mit WoManPower unterstützen. Dazu erwirtschaften so auch ein Kulturbudget, um z.B. den Alltag zu finanzieren. Das gibt uns die Freiheit, Formate anzubieten, die nicht auf Wirtschaftlichkeit setzen müssen. Satzungsziele olé.
+      </div>
+
+    </div>
+  </div>
+</section>
+
+</doc-page>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:794,&quot;height&quot;:1123},&quot;quarterBadge&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;02/2026&quot;,&quot;tsType&quot;:&quot;string&quot;},&quot;quarterRange&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;Quartal 01-02/26&quot;,&quot;tsType&quot;:&quot;string&quot;}}"></script>
+</body>
+</html>
